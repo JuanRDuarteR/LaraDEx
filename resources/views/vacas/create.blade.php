@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Vacas|Create')
+@section('title', 'Vacas|Crear')
 @section('content')
 <form  class="form-group" method="POST" action="/vacas">
     @csrf
