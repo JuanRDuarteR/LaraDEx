@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Trainers Create')
+@section('title', 'crear entrenador')
 @section('content')
 <form class="from-group" method="POST" action="/trainers" enctype="multipart/form-data">
     @csrf
